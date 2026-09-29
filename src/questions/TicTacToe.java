@@ -1,6 +1,5 @@
 package questions;
 
-import java.util.ArrayList;
 import java.util.List;
 
 class InvalidMoveException extends RuntimeException {
@@ -294,11 +293,11 @@ public class TicTacToe {
         System.out.println("========== TIC TAC TOE ==========");
 
         // Alice (X) completes the top row and wins
-        game.makeMove(0, 0);  // X at (0,0)
-        game.makeMove(1, 0);  // O at (1,0)
-        game.makeMove(0, 1);  // X at (0,1)
-        game.makeMove(1, 1);  // O at (1,1)
-        game.makeMove(0, 2);  // X at (0,2) - Alice wins!
+        game.makeMove(0, 0); // X at (0,0)
+        game.makeMove(1, 0); // O at (1,0)
+        game.makeMove(0, 1); // X at (0,1)
+        game.makeMove(1, 1); // O at (1,1)
+        game.makeMove(0, 2); // X at (0,2) - Alice wins!
 
         game.printBoard();
 
